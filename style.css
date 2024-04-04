@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #007bff;
+    background: rgb(128, 69, 218);
 }
 
 ::selection{
@@ -50,7 +50,7 @@ body{
 }
 
 .info_box{
-    width: 440px;
+    width: 80%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -108,7 +108,7 @@ body{
 }
 
 .quiz_box{
-    width: 450px;
+    width: 80%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -145,12 +145,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 30%;
 }
 
 .quiz_box header .timer .time_left_txt{
     font-weight: 400;
-    font-size: 17px;
+    font-size: 12px;
     user-select: none;
 }
 
