@@ -127,7 +127,7 @@
     Telegram.WebApp.onEvent('themeChanged', function() {
       document.documentElement.className = Telegram.WebApp.colorScheme;
     });
-
+    window.Telegram.WebApp.enableClosingConfirmation()
     // Show main button
     Telegram.WebApp.MainButton.setParams({
       text: 'Main'
