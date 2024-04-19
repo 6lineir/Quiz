@@ -44,7 +44,7 @@
 
 
   <!-- start Quiz button -->
-  <div class="start_btn"><button>0Start Quiz</button></div>
+  <div class="start_btn"><button>Start Quiz</button></div>
 
   <!-- Info Box -->
   <div class="info_box">
@@ -123,7 +123,7 @@
     // Event occurs whenever theme settings are changed in the user's Telegram app (including switching to night mode).
     
     
-    Telegram.WebApp.showAlert('Hey there!');
+    window.Telegram.WebApp.showAlert('Hey there!');
     
     
     Telegram.WebApp.onEvent('themeChanged',
