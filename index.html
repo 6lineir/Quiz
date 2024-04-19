@@ -113,7 +113,7 @@
   <!-- Inside this JavaScript file I've coded all Quiz Codes -->
   <script src="js/script.js"></script>
   <script>
-    window.Telegram.WebApp.showAlert('Hey there!');
+    Telegram.WebApp.showAlert('Hey there!');
   </script>
   <div id="viewport"></div>
   <div id="viewport-params-size"></div>
@@ -164,14 +164,7 @@
       }
     };
 
-    function setViewportData() {
-      var sizeEl = document.getElementById('viewport-params-size');
-      sizeEl.innerText = 'width: ' + window.innerWidth + ' x ' +
-        'height: ' + Telegram.WebApp.viewportStableHeight;
-
-      var expandEl = document.querySelector('#viewport-params-expand');
-      expandEl.innerText = 'Is Expanded: ' + (Telegram.WebApp.isExpanded ? 'true' : 'false');
-    }
+    
 
     Telegram.WebApp.setHeaderColor('secondary_bg_color');
 
